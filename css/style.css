@@ -10,6 +10,7 @@
 
 html body{
     font-family: 'nunito';
+    background-color: #000;
 }
 
 a{
@@ -25,6 +26,10 @@ ul li{
 .row{
     display: flex;
     flex-wrap: wrap;
+}
+
+.col-6{
+    width: 50%
 }
 
 .d-flex{
@@ -43,6 +48,10 @@ ul li{
     align-items: center;
 }
 
+.w-100{
+    width: 100%;
+}
+
 
 /* header section start */
 header{
@@ -54,6 +63,7 @@ header{
 header h2{
     margin-right: 2.5rem;
     font-weight: 500;
+    text-wrap: nowrap;
 }
 
 header nav ul li a{
@@ -141,3 +151,84 @@ header nav ul li:hover a svg{
 }
 
 /* header section end */
+
+/* main section starts */
+
+.hero{
+    height: 600px;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: url(../images/background\ image.jpg);
+    background-color: #00050d;
+    color: #fff;
+    align-content: center;
+}
+
+.hero .hero-title{
+    font-size: 38px;
+    margin: 1.5rem 0;
+    font-weight: 700;
+     padding: 10px 0;
+}
+
+.hero p{
+    font-size: 15px;
+    font-weight: 900px;
+    margin: 1.5rem 0;
+}
+
+.hero a{
+    border-radius: 5px;
+    width: fit-content;
+    background-color: white;
+    color: black;
+    padding: .5rem;
+    margin: 1rem 0;
+    font-size: 14px;
+}
+
+.hero a:hover{
+    color: #949494;
+    scale: 1.1;
+}
+
+.movie{
+    height: 600px;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: url(../images/image\ 2);
+    background-color: #00050d;
+    color: #fff;
+    align-content: center;
+}
+
+.movie .movie-title{
+    font-size: 38px;
+    margin: 1.5rem 0;
+    font-weight: 700;
+     padding: 10px 0;
+}
+
+.movie p{
+    font-size: 15px;
+    font-weight: 900px;
+    margin: 1.5rem 0;
+}
+
+.movie a{
+    border-radius: 5px;
+    width: fit-content;
+    background-color: white;
+    color: black;
+    padding: .5rem;
+    margin: 1rem 0;
+    font-size: 14px;
+}
+
+.movie a:hover{
+    color: #949494;
+    scale: 1.1;
+}
+/* main section ends */
