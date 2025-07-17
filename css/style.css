@@ -32,6 +32,10 @@ ul li{
     width: 50%
 }
 
+.col-4{
+    width: 33.33%
+}
+
 .d-flex{
     display: flex;
 }
@@ -48,7 +52,20 @@ ul li{
     align-items: center;
 }
 
+.justify-content-center{
+    justify-content: center;
+}
+
 .w-100{
+    width: 100%;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+img{
+    display: block;
     width: 100%;
 }
 
@@ -57,13 +74,18 @@ ul li{
 header{
     background-color: #00050d;
     color: #fff;
-    padding: .5rem 0;
+    padding: .5rem 2.5rem;
+    position: sticky;
+    top: 0;
 }
 
-header h2{
-    margin-right: 2.5rem;
-    font-weight: 500;
-    text-wrap: nowrap;
+header .nav{
+    width: 100%;
+}
+
+header .logo img{
+    width: 80px;
+    padding: 10px 10px;
 }
 
 header nav ul li a{
@@ -124,7 +146,7 @@ header nav ul li:hover a svg{
 .content nav ul li:nth-child(3) a svg{
     width: 24px;
     height: 24px;
-    fill: #fff;
+    fill: white;
 }
 
 .content nav ul li:hover a svg{
@@ -154,6 +176,12 @@ header nav ul li:hover a svg{
 
 /* main section starts */
 
+.container{
+    max-width: 1920px;
+    margin: 1rem auto;
+    padding: 0 51px;
+}
+
 .hero{
     height: 600px;
     background-position: top;
@@ -162,7 +190,7 @@ header nav ul li:hover a svg{
     background: url(../images/background\ image.jpg);
     background-color: #00050d;
     color: #fff;
-    align-content: center;
+    
 }
 
 .hero .hero-title{
@@ -179,13 +207,15 @@ header nav ul li:hover a svg{
 }
 
 .hero a{
-    border-radius: 5px;
+    border-radius: 10px;
     width: fit-content;
     background-color: white;
     color: black;
-    padding: .5rem;
+    padding: 1rem;
     margin: 1rem 0;
     font-size: 14px;
+    font-weight: 700;
+    
 }
 
 .hero a:hover{
@@ -201,7 +231,7 @@ header nav ul li:hover a svg{
     background: url(../images/image\ 2);
     background-color: #00050d;
     color: #fff;
-    align-content: center;
+   
 }
 
 .movie .movie-title{
@@ -218,13 +248,14 @@ header nav ul li:hover a svg{
 }
 
 .movie a{
-    border-radius: 5px;
+    border-radius: 10px;
     width: fit-content;
     background-color: white;
     color: black;
-    padding: .5rem;
+    padding: 1rem;
     margin: 1rem 0;
     font-size: 14px;
+    font-weight: 700;
 }
 
 .movie a:hover{
@@ -232,3 +263,4 @@ header nav ul li:hover a svg{
     scale: 1.1;
 }
 /* main section ends */
+
