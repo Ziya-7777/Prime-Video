@@ -178,7 +178,7 @@ header nav ul li:hover a svg{
 
 .container{
     max-width: 1920px;
-    margin: 1rem auto;
+    margin: 2rem auto;
     padding: 0 51px;
 }
 
@@ -194,16 +194,18 @@ header nav ul li:hover a svg{
 }
 
 .hero .hero-title{
-    font-size: 38px;
-    margin: 1.5rem 0;
+    font-size: 48px;
+    margin: 1.2rem 0;
     font-weight: 700;
      padding: 10px 0;
+     font-family:sans-serif;
 }
 
 .hero p{
-    font-size: 15px;
-    font-weight: 900px;
+    font-size: 22px;
+    font-weight: 500;
     margin: 1.5rem 0;
+    font-family: sans-serif;
 }
 
 .hero a{
@@ -215,6 +217,7 @@ header nav ul li:hover a svg{
     margin: 1rem 0;
     font-size: 14px;
     font-weight: 700;
+    font-family: sans-serif;
     
 }
 
@@ -231,20 +234,23 @@ header nav ul li:hover a svg{
     background: url(../images/image\ 2);
     background-color: #00050d;
     color: #fff;
+    font-family: sans-serif;
    
 }
 
 .movie .movie-title{
-    font-size: 38px;
-    margin: 1.5rem 0;
+    font-size: 50px;
+    margin: 1.2rem 0;
     font-weight: 700;
      padding: 10px 0;
+     font-family: sans-serif;
 }
 
 .movie p{
-    font-size: 15px;
-    font-weight: 900px;
+    font-size: 20px;
+    font-weight: 500px;
     margin: 1.5rem 0;
+    font-family: sans-serif;
 }
 
 .movie a{
@@ -254,8 +260,9 @@ header nav ul li:hover a svg{
     color: black;
     padding: 1rem;
     margin: 1rem 0;
-    font-size: 14px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: sans-serif;
 }
 
 .movie a:hover{
@@ -269,23 +276,25 @@ header nav ul li:hover a svg{
 /* favorite-subscriptions section start */
 .favorite-subscriptions {
     padding: 4rem 2rem;
+    font-family: sans-serif;
 }
 
 .favorite-subscriptions-content {
     padding-right: 5px;
+    font-family: sans-serif;
 }
 
 .favorite-subscriptions h1 {
     color: #fff;
     padding-bottom: 2rem;
-    font-size: 48px;
+    font-size: 50px;
     font-weight: 700;
 }
 
 .favorite-subscriptions p {
     color: #fff;
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .favorite-subscriptions a {
@@ -313,6 +322,7 @@ header nav ul li:hover a svg{
     text-align: center;
     justify-content: center;
     align-items: center;
+    font-family: sans-serif;
 }
 
 .prime-video img {
@@ -325,6 +335,7 @@ header nav ul li:hover a svg{
 .prime-video a {
     color: #79b8f3;
     margin: .5rem;
+    font-family: sans-serif;
 }
 
 .prime-video a:hover {
@@ -334,6 +345,7 @@ header nav ul li:hover a svg{
 .prime-video p {
     color: #8197a4;
     margin: .5rem;
+    font-family: sans-serif;
 }
 
 /* prime-video section end */
